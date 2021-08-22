@@ -29,3 +29,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Getting Started angular+firebase
 https://github.com/angular/angularfire/blob/master/docs/install-and-setup.md
+
+## Isntall Toastr
+npm install ngx-toastr

@@ -2,6 +2,10 @@
 /* https://uigradients.com/#SandtoBlue */
 /* https://pixabay.com/photos/avenue-trees-path-sunbeams-sunrays-815297/ */
 /* https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=edit */
+/* https://www.npmjs.com/package/ngx-toastr */
+
+@import '~ngx-toastr/toastr';
+
 body {
 
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
