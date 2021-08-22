@@ -12,6 +12,7 @@ import { EmpleadoService } from 'src/app/services/empleado.service';
 export class CreateEmpleadoComponent implements OnInit {
   createEmpleado : FormGroup;
   submitted = false;
+  loading = false;
   constructor(private fb: FormBuilder,
               private _empleadoService: EmpleadoService,
               private router: Router,
@@ -41,17 +42,18 @@ export class CreateEmpleadoComponent implements OnInit {
       fechaCreacion: new Date(),
       fechaActualizacion: new Date()
     }
+    this.loading = true;
     this._empleadoService.agregarEmpleado(empleado).then(()=>{
       this.toastr.success('Empleado registrado con exito!', 
                           'Empleado Registrado!',
                           {positionClass: 'toast-bottom-right'}
                           );
+      this.loading = false;
       this.router.navigate(['/list-empleados']);
-
     }).catch(error => {
       console.log('error');
+      this.loading = false;
     })
-    console.log(empleado);
   }
 
 }
