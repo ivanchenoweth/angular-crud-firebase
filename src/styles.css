@@ -1,13 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 /* https://uigradients.com/#SandtoBlue */
 /* https://pixabay.com/photos/avenue-trees-path-sunbeams-sunrays-815297/ */
+/* https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=edit */
 body {
 
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./assets/fondo-bosque.jpg");
   /* background-image: url('./assets/fondo-bosque.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
+  backdrop-filter: blur(1px);
 }
