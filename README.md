@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo 
 
-(Demo link)[https://crud-angular-firebase-poc.netlify.app]
+[Demo link](https://crud-angular-firebase-poc.netlify.app)
 
 
 ## Development server
