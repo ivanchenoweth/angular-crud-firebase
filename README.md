@@ -1,4 +1,4 @@
-# Empleados
+# Angular Crud Firebase
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
@@ -32,3 +32,11 @@ https://github.com/angular/angularfire/blob/master/docs/install-and-setup.md
 
 ## Isntall Toastr
 npm install ngx-toastr
+
+## Demo 
+
+[Demo link](https://crud-angular-firebase-poc.netlify.app)
+
+## Based from this video tutorial: 
+
+[Video Tutorial](https://www.youtube.com/watch?v=wrp47fBoWns&ab_channel=TomasRuizDiaz)
