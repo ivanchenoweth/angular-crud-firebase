@@ -27,7 +27,9 @@
             <td>{{empleado.salario | currency}}</td>
             <td>
               <i 
-                class="fas fa-edit fa-lg text-info mr-2">
+                class="fas fa-edit fa-lg text-info mr-2"
+                [routerLink]="['/editEmpleado/',empleado.id]"
+              >
               </i>
               <i 
                 class="fas fa-trash-alt fa-lg text-danger"
