@@ -8,7 +8,8 @@
       >
         Agregar
       </button>
-      <table class="table table-striped mt-5">
+      <h5 *ngIf="empleados.length == 0" class="mt-5">No hay datos para mostrar</h5>
+      <table *ngIf="empleados.length > 0" class="table table-striped mt-5">
         <thead>
           <tr>
             <th>Nombre</th>
@@ -23,17 +24,21 @@
             <td>{{empleado.nombre}}</td>
             <td>{{empleado.apellido}}</td>
             <td>{{empleado.documento}}</td>
-            <td>{{empleado.salario}}</td>
+            <td>{{empleado.salario | currency}}</td>
             <td>
-              <i class="fas fa-edit fa-lg text-info mr-2"></i>
-              <i class="fas fa-trash-alt fa-lg text-danger"></i>
+              <i 
+                class="fas fa-edit fa-lg text-info mr-2">
+              </i>
+              <i 
+                class="fas fa-trash-alt fa-lg text-danger"
+                (click)="eliminarEmpleado(empleado.id)" 
+                >
+                
+              </i>
             </td>
           </tr>
         </tbody>
       </table>
-
-
-      
     </div>
   </div>
 </div>
