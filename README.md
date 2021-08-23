@@ -35,8 +35,8 @@ npm install ngx-toastr
 
 ## Demo 
 
-[Demo link](https://crud-angular-firebase-poc.netlify.app){:target="_blank"}
+[Demo link](https://crud-angular-firebase-poc.netlify.app)
 
 ## Based from this video tutorial: 
 
-[Video Tutorial] (https://www.youtube.com/watch?v=wrp47fBoWns&ab_channel=TomasRuizDiaz){:target="_blank"}
+[Video Tutorial](https://www.youtube.com/watch?v=wrp47fBoWns&ab_channel=TomasRuizDiaz)
