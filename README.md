@@ -2,11 +2,6 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
-## Demo 
-
-[Demo link](https://crud-angular-firebase-poc.netlify.app)
-
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -37,3 +32,11 @@ https://github.com/angular/angularfire/blob/master/docs/install-and-setup.md
 
 ## Isntall Toastr
 npm install ngx-toastr
+
+## Demo 
+
+[Demo link](https://crud-angular-firebase-poc.netlify.app){:target="_blank"}
+
+## Based from this video tutorial: 
+
+[Video Tutorial] (https://www.youtube.com/watch?v=wrp47fBoWns&ab_channel=TomasRuizDiaz){:target="_blank"}
